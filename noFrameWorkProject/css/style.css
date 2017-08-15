@@ -318,8 +318,8 @@ section {
 /*--Testimonials--*/
 
 .section-testimonials {
-	background-image: -webkit-repeating-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
-	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+	background-image: -webkit-repeating-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/material-af.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/material-af.jpg);
 	background-size: cover;
 	color: #fff;
 	background-attachment: fixed;
@@ -357,3 +357,61 @@ cite img {
 
 
 /*----------------*/
+
+
+/*---Plans---*/
+
+.section-plans {
+	background-color: #f4f4f4;
+}
+
+.plan-box {
+	background-color: #fff;
+	border-radius: 5px;
+	width: 90%;
+	margin-left: 5%;
+	box-shadow: 0 2px 2px #e3e3e3;
+}
+
+.plan-box div {
+	padding: 15px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child {
+	background-color: #fcfcfc;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px
+}
+
+.plan-box div:last-child {
+	text-align: center;
+	border: 0;
+}
+
+.plan-price {
+	font-size: 300%;
+	margin-bottom: 10px;
+	font-weight: 100;
+	color: #e67e22;
+}
+
+.plan-price span {
+	font-size: 30%;
+	font-weight: 300;
+}
+
+.plan-price-month {
+	font-size: 80%;
+}
+
+.plan-box ul {
+	list-style: none;
+}
+
+.plan-box ul li {
+	padding: 5px 0;
+}
+
+
+/*-----------*/
